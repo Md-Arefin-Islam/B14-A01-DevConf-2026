@@ -5,6 +5,9 @@
   font-family: "Inter", sans-serif;
 }
 /* Navbar Start */
+header {
+  height: 98px;
+}
 
 .container {
   max-width: 1320px;
@@ -51,32 +54,35 @@ span {
 /* Banner section start */
 .banner-parent {
   background-image: url(./assets/banner.jpg);
-  background-size: 100%;
+  width: 100%;
   height: 786px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  color: white;
+  max-width: 959px;
+  padding-top: 136px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .banner-heading {
   font-size: 80px;
   font-weight: 700;
-  width: 959px;
-  height: 95px;
-  color: #ffffffff;
-  padding: 136px 252px 16px 340px;
-  text-align: center;
 }
 .banner-paragraph {
   font-size: 22px;
-  font-weight: 400px;
-  width: 829px;
-  height: 108px;
+  font-weight: 400;
+  margin-top: 16px;
   color: #ffffffe5;
-  padding: 0px 301px 278px 421px;
-
-  text-align: center;
 }
 .banner-btn-parent {
-  padding: 0px 617px 79px 652px;
+  margin-top: 278px;
+  margin-bottom: 79px;
 }
+
 .banner-btn {
   background-color: #1d4ed8ff;
   width: 282px;
