@@ -22,7 +22,7 @@ nav {
 img {
   max-width: 100%;
 }
-ul {
+header nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -106,6 +106,7 @@ span {
 .speakers-parent h2 {
   font-size: 56px;
   font-weight: 700;
+  color: #000102ff;
 }
 .speakers-box-parent {
   padding-top: 56px;
@@ -127,15 +128,123 @@ span {
 .speakers-track {
   color: #2563ebff;
   font-size: 12px;
-  font-weight: 600px;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 .speakers-name {
   color: #0d1b2aff;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 8px;
 }
 .speakers-title {
   color: #575757;
   font-size: 14px;
   font-weight: 400;
+}
+/* Speakers section end  */
+/* Pricing section start */
+.pricing-parent {
+  margin: 0 auto 33px;
+  text-align: center;
+}
+.notice {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2aff;
+}
+.deadline {
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757ff;
+  margin-top: 12px;
+}
+.pricing-box-parent {
+  padding: 48px 104px 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 371px);
+  gap: 24px;
+}
+.pricing-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  height: 442px;
+  padding: 32px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.pricing-box.middle-box-pricing-box {
+  background-color: #0d1b2aff;
+}
+
+.plan-name {
+  color: #888888ff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.plan-name.middle-box-plan-name {
+  color: #93c5fdff;
+}
+.price {
+  color: #0d1b2aff;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.price.middle-box-plan {
+  color: #ffffffff;
+}
+.price-description {
+  color: #888888ff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+.price-description.middle-box-price-description {
+  color: #ffffff80;
+}
+.line-style {
+  color: #e5e7ebff;
+}
+.line-style.middle-box-line-style {
+  color: #ffffff1a;
+}
+.features {
+  margin-top: 27px;
+}
+.features li {
+  margin-bottom: 10px;
+  list-style: none;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+}
+.features.middle-box-features li {
+  color: #ffffffcc;
+}
+.features li::before {
+  content: "•";
+  color: #2563ebff;
+  padding-right: 8px;
+}
+.features.middle-box-features li::before {
+  color: #60a5faff;
+}
+.pricing-box button {
+  margin-top: 18px;
+  width: 305px;
+  height: 45px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2563ebff;
+  border: 1px solid #2563ebff;
+  cursor: pointer;
+}
+.pricing-box.middle-box-pricing-box button {
+  background-color: #2563ebff;
+  color: #ffffffff;
 }
