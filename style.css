@@ -205,10 +205,12 @@ span {
   color: #ffffff80;
 }
 .line-style {
-  color: #e5e7ebff;
+  border: none;
+  height: 1px;
+  background-color: #e5e7ebff;
 }
 .line-style.middle-box-line-style {
-  color: #ffffff1a;
+  background-color: #ffffff1a;
 }
 .features {
   margin-top: 27px;
@@ -248,3 +250,94 @@ span {
   background-color: #2563ebff;
   color: #ffffffff;
 }
+/* Pricing section end */
+/* Footer section start */
+footer {
+  background-color: #11192d;
+  color: #f5f6f6;
+}
+.footer-parent {
+  padding-bottom: 30px;
+}
+.footer {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* left */
+footer img {
+  margin-bottom: 6px;
+}
+.footer-left-description {
+  margin-bottom: 12px;
+}
+.footer-icon-parent {
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-icon-parent span:hover {
+  transform: translateY(-4px);
+}
+
+.github-icon.x-twitter-icon {
+  color: black;
+}
+.linkdin-icon {
+  color: #60a5faff;
+}
+
+.youtube-icon {
+  color: red;
+}
+/* Middle */
+.footer-middle {
+  padding-left: 160px;
+}
+.footer-heading {
+  margin-bottom: 23px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.footer li {
+  list-style: none;
+  cursor: pointer;
+}
+.footer li::before {
+  content: "»";
+  padding-right: 8px;
+}
+/* Right */
+.footer-right {
+  padding-left: 120px;
+}
+.footer-right-font {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+}
+.location-font {
+  color: red;
+  margin-bottom: 20px;
+}
+.mail-font {
+  color: yellow;
+  margin-bottom: 20px;
+}
+.telephone-font {
+  color: green;
+}
+/* Down */
+.footer-breakline {
+  border: none;
+  height: 1px;
+  background-color: #333333;
+}
+.footer-note {
+  margin-top: 31px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #ffffff80;
+}
+/* Footer section end */
