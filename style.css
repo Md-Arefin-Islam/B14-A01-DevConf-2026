@@ -145,7 +145,7 @@ span {
 /* Speakers section end  */
 /* Pricing section start */
 .pricing-parent {
-  margin: 0 auto 33px;
+  margin: 0 auto;
   text-align: center;
 }
 .notice {
@@ -251,6 +251,221 @@ span {
   color: #ffffffff;
 }
 /* Pricing section end */
+
+/* Hackathon section start */
+
+.hackathon-section {
+  width: 100%;
+  padding: 0 104px 60px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+/* Header */
+.hackathon-header {
+  max-width: 900px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.hackathon-label {
+  margin: 0 0 25px;
+  color: #6037ff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hackathon-title {
+  margin: 0;
+  color: #11103d;
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hackathon-title span {
+  color: #6037ff;
+}
+
+.hackathon-description {
+  max-width: 760px;
+  margin: 30px auto 0;
+  color: #64708c;
+  font-size: 18px;
+  line-height: 1.7;
+}
+/* Stat */
+.hackathon-card {
+  min-height: 185px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border: 1px solid #e0e5f2;
+  border-radius: 24px;
+
+  background-color: #ffffff;
+
+  box-shadow: 0 15px 40px rgba(73, 60, 180, 0.08);
+
+  overflow: hidden;
+}
+
+.hackathon-stat {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  padding: 40px 55px;
+}
+
+.hackathon-stat + .hackathon-stat {
+  border-left: 1px solid #e0e5f2;
+}
+
+.stat-icon {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+
+  background-color: #f0efff;
+
+  color: #6037ff;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.hackathon-stat h3 {
+  margin: 0 0 7px;
+
+  color: #11103d;
+
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.hackathon-stat p {
+  margin: 0;
+
+  color: #64708c;
+
+  font-size: 15px;
+}
+
+/* Cta */
+
+.hackathon-cta {
+  max-width: 1320px;
+  min-height: 180px;
+
+  margin: 40px auto 0;
+
+  padding: 40px 60px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #d9d7ff;
+  border-radius: 24px;
+
+  background-color: #f7f6ff;
+}
+
+.cta-label {
+  margin: 0 0 14px;
+
+  color: #6037ff;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hackathon-cta h3 {
+  margin: 0;
+
+  color: #11103d;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hackathon-btn {
+  border: none;
+  border-radius: 13px;
+
+  padding: 19px 30px;
+
+  background-color: #4d25e8;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.hackathon-btn span {
+  margin-left: 18px;
+  font-size: 22px;
+}
+
+.hackathon-btn:hover {
+  background-color: #6037ff;
+  transform: translateY(-2px);
+}
+
+/* Bottom features */
+
+.hackathon-bottom {
+  max-width: 1100px;
+
+  margin: 50px auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  padding: 10px 25px;
+}
+
+.bottom + .bottom {
+  border-left: 1px solid #e0e5f2;
+}
+
+.bottom span {
+  color: navy;
+
+  font-size: 23px;
+}
+
+.bottom p {
+  margin: 0;
+
+  color: #64708c;
+
+  font-size: 15px;
+}
+/* Hackathon section end */
 /* Footer section start */
 footer {
   background-color: #11192d;
@@ -300,6 +515,7 @@ footer img {
   margin-bottom: 23px;
   font-size: 25px;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 .footer li {
   list-style: none;
